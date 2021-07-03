@@ -3,21 +3,41 @@
     background-color: #232f3e;
     display: flex;
     position: static;
-    float: none
+    float: none;
+    align-content: center;
 }
 .header__belt{
-    height: 65;
+    height: 65px;
     width: 100%;
     background-color: #131921;
     display: flex;
+    align-items: center;
 }
 .header__logo{
     height: 30px;
     width: 97px;
     background-position: -10px -51px;
 }
+.header__search{
+
+}
+.header__searchInput{
+    width: 900px;
+    height: 40px;
+}
 .header__nav{
     display: flex;
+}
+.header__option{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+.header__optionLineOne{
+    color: #d6d6d6;
+}
+.header__optionLineTwo{
+    color: #d6d6d6;
 }
 .nav__main{
     height: 30;
