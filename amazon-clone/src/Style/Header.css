@@ -29,6 +29,7 @@
 }
 .header__locationIconOutlined{
     color: #d6d6d6;
+    z-index: 20px;
 }
 .header__locationOptionOne{
     color: #d6d6d6;
