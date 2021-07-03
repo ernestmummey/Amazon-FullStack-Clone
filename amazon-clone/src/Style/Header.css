@@ -17,21 +17,56 @@
     height: 30px;
     width: 97px;
     background-position: -10px -51px;
+    margin: 0 15px;
 }
-.header__search{
+.header__locationOption{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 15px;
+}
+.header__locationIcon{
 
 }
+.header__locationIconOutlined{
+    color: #d6d6d6;
+}
+.header__locationOptionOne{
+    color: #d6d6d6;
+}
+.header__locationOptionTwo{
+    color: #d6d6d6;
+}
+.header__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+.header__searchSelect{
+    padding: 6px;
+    width: 50px;
+    height: 40px !important;
+    background-color: #f3f3f3;
+}
 .header__searchInput{
-    width: 900px;
-    height: 40px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.header__searchIcon{
+    padding: 5px;
+    height: 30px !important;
+    background-color: #cd9042;
 }
 .header__nav{
     display: flex;
+    justify-content: space-evenly;
 }
 .header__option{
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    margin: 0 15px;
 }
 .header__optionLineOne{
     color: #d6d6d6;
