@@ -45,19 +45,22 @@
 .header__searchSelect{
     padding: 6px;
     width: 50px;
-    height: 40px !important;
+    height: 45px !important;
     background-color: #f3f3f3;
+    border: none;
+    border-radius: 10% 0 0 10%;
 }
 .header__searchInput{
-    height: 20px;
+    height: 25px;
     padding: 10px;
     border: none;
     width: 100%;
 }
 .header__searchIcon{
     padding: 5px;
-    height: 30px !important;
+    height: 35px !important;
     background-color: #cd9042;
+    border-radius: 0 10% 10% 0;
 }
 .header__nav{
     display: flex;

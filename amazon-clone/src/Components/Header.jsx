@@ -47,14 +47,6 @@ const Header = (props) => {
                         </span>
                     </div>
                     <div className="header__option">
-                        <span className='header__optionLineOne'>
-                            Your
-                        </span>
-                        <span className='header__optionLineTwo'>
-                            Prime
-                        </span>
-                    </div>
-                    <div className="header__option">
                         {/* icon */}
                         <span className='header__optionLineOne'>
                             Your
