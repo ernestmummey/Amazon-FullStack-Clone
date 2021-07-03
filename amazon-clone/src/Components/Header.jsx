@@ -1,5 +1,7 @@
 import React from 'react';
 import '../Style/Header.css'
+import SearchIcon from '@material-ui/icons/Search';
+import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 
 const Header = (props) => {
     return(
@@ -9,10 +11,23 @@ const Header = (props) => {
                     className='header__logo'
                     src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'
                 />
-                
+                <div className="header__locationIcon">
+                    <LocationOnOutlinedIcon className='header__locationIconOutlined'/>
+                </div>
+                <div className="header__locationOption">
+                    <span className='header__locationOptionOne'>
+                        Hello
+                    </span>
+                    <span className='header__locationOptionTwo'>
+                        Select your address
+                    </span>
+                </div>
                 <div className='header__search'>
+                    <select className='header__searchSelect'>
+                        <option>All Departments</option>
+                    </select>
                     <input className='header__searchInput' type='text'/>
-                    {/* logo */}
+                    <SearchIcon className='header__searchIcon'/>
                 </div>
                 <div className="header__nav">
                     <div className="header__option">
