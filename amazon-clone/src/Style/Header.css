@@ -78,6 +78,17 @@
 .header__optionLineTwo{
     color: #d6d6d6;
 }
+.header__optionLineOneShopppingCart{
+    
+}
+.header__optionShoppingCartSprit{
+    background-color: #d6d6d6;
+    width: 7px;
+    height: 7px
+}
+.header__optionLineShopppingCart{
+
+}
 .nav__main{
     height: 30;
     width: 100%;
