@@ -2,6 +2,7 @@ import React from 'react';
 import '../Style/Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 const Header = (props) => {
     return(
@@ -47,9 +48,14 @@ const Header = (props) => {
                         </span>
                     </div>
                     <div className="header__option">
-                        {/* icon */}
-                        <span className='header__optionLineOne'>
-                            Your
+                        <span className='header__optionLineOneShoppingCart'>
+                        <div className="header__optionShoppingCartSprit"></div>
+                        <AddShoppingCartIcon className='header__optionShoppingCart' />
+                        </span>
+                    </div>
+                    <div className="header__option">
+                        <span className='header__optionLineTwo'>
+                            cart
                         </span>
                     </div>
                 </div>
