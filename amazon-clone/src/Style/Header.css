@@ -23,17 +23,22 @@
     height: 30px;
     width: 97px;
     background-position: -10px -51px;
-    margin: 0 15px;
+    margin: 1px 1px 1px 15px;
+    padding: 1px 8px 0 6px;
+
 }
 .header__locationOption{
     display: flex;
     flex-flow: column nowrap;
-    margin-right: 15px;
+    margin: 5px 2px 5px 0;
+    padding: 0 9px 0 0;
 }
 .header__locationSprite{
     color: #d6d6d6;
     height: 20px;
     width: 20px;
+    padding-left: 9px;
+    margin-right: -9px;
     background-position: -68px -375px;
 }
 .header__locationOptionOne{
@@ -43,6 +48,8 @@
 .header__locationOptionTwo{
     color: #FFFFFF;
     font-size: 14px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header__search{
     display: flex;
@@ -79,6 +86,7 @@
     display: flex;
     flex-flow: column nowrap;
     margin-left: 6px;
+    padding: 0px 9px 10px 9px;
 }
 .header__optionLineOne{
     color: #FFFFFF;
@@ -88,25 +96,42 @@
 .header__optionLineTwo{
     color: #FFFFFF;
     font-size: 14px;
+    font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
 .header__optionShoppingCart{
     display: flex;
-    margin-left: 6px;
+    padding: 0px 9px 11px 9px;
+    margin-top: -16px;
     margin-right: 15px;
+    margin-left: 6px;
+}
+.header__optionShoppingCartLineOne{
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+.header__optionShoppingCartCount{
+    color: #f08804;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 13px;
+    left: 27px
 }
 .header__optionShoppingCartSprite{
     background-position: -0 -340px;
     width: 48px;
     height: 27px;
-    margin-top: 5px;
 }
 .header__optionShoppingCartLineTwo{
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    font-weight: 900;
     height: 15px;
-    margin-top: 15px;
+    margin-top: 28px;
 }
 .nav__main{
     height: 30;
