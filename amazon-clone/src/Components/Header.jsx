@@ -30,7 +30,7 @@ const Header = (props) => {
                             Hello Guest
                         </span>
                         <span className='header__optionLineTwo'>
-                            Sign in
+                            Account & List
                         </span>
                     </div>
                     <div className="header__option">
@@ -41,8 +41,11 @@ const Header = (props) => {
                             & Orders
                         </span>
                     </div>
-                    <div className="header__optionShoppingCart">
-                        <span className='header__optionShoppingCartSprite'/>
+                    <div className='header__optionShoppingCart'>
+                    <div className="header__optionShoppingCartLineOne">
+                            <span className='header__optionShoppingCartCount'>0</span>
+                            <span className='header__optionShoppingCartSprite'/>
+                    </div>
                         <span className='header__optionShoppingCartLineTwo'>
                             cart
                         </span>
