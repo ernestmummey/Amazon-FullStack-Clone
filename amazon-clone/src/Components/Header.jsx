@@ -1,20 +1,14 @@
 import React from 'react';
 import '../Style/Header.css'
-import SearchIcon from '@material-ui/icons/Search';
-import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
-import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+
+
 
 const Header = (props) => {
     return(
         <div className='header'>
             <div className="header__belt">
-                <img 
-                    className='header__logo'
-                    src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'
-                />
-                <div className="header__locationIcon">
-                    <LocationOnOutlinedIcon className='header__locationIconOutlined'/>
-                </div>
+                <span className='header__logo'/>
+                <span className='header__locationSprite'/>
                 <div className="header__locationOption">
                     <span className='header__locationOptionOne'>
                         Hello
@@ -28,7 +22,7 @@ const Header = (props) => {
                         <option>All Departments</option>
                     </select>
                     <input className='header__searchInput' type='text'/>
-                    <SearchIcon className='header__searchIcon'/>
+                    <span className='header__searchIcon'/>
                 </div>
                 <div className="header__nav">
                     <div className="header__option">
@@ -47,14 +41,9 @@ const Header = (props) => {
                             & Orders
                         </span>
                     </div>
-                    <div className="header__option">
-                        <span className='header__optionLineOneShoppingCart'>
-                        <div className="header__optionShoppingCartSprit"></div>
-                        <AddShoppingCartIcon className='header__optionShoppingCart' />
-                        </span>
-                    </div>
-                    <div className="header__option">
-                        <span className='header__optionLineTwo'>
+                    <div className="header__optionShoppingCart">
+                        <span className='header__optionShoppingCartSprite'/>
+                        <span className='header__optionShoppingCartLineTwo'>
                             cart
                         </span>
                     </div>
