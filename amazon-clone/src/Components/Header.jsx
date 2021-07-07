@@ -52,33 +52,30 @@ const Header = (props) => {
                     </div>
                 </div>
             </div>
-            {/* <div className="nav__main">
+            <div className="nav__main">
                 <ul className='nav__list'>
-                    <li>Best Sellers</li>
-                    <li>Customer Service</li>
-                    <li>Prime</li>
-                    <li>New Releases</li>
-                    <li>Pharmacy</li>
-                    <li>Books</li>
-                    <li>Fashion</li>
-                    <li>Toys & Games</li>
-                    <li>Kindle Books</li>
-                    <li>Gift Cards</li>
-                    <li>Amazon Home</li>
-                    <li>Registry</li>
-                    <li>Sell</li>
-                    <li>Computers</li>
-                    <li>Video Games</li>
-                    <li>Find Gift</li>
-                    <li>Home Improvement</li>
-                    <li>Coupons</li>
-                    <li>Automotive</li>
-                    <li>Beauty & Personal Care</li>
-                    <li>Smart Home</li>
-                    <li>TV & Video</li>
-                    <li>Amazon Basics</li>
+                    <li className='nav__mainListLi'>Best Sellers</li>
+                    <li className='nav__mainListLi'>Customer Service</li>
+                    <li className='nav__mainListLi'>Prime</li>
+                    <li className='nav__mainListLi'>New Releases</li>
+                    <li className='nav__mainListLi'>Pharmacy</li>
+                    <li className='nav__mainListLi'>Books</li>
+                    <li className='nav__mainListLi'>Fashion</li>
+                    <li className='nav__mainListLi'>Toys & Games</li>
+                    <li className='nav__mainListLi'>Kindle Books</li>
+                    <li className='nav__mainListLi'>Gift Cards</li>
+                    <li className='nav__mainListLi'>Amazon Home</li>
+                    <li className='nav__mainListLi'>Today's Deals</li>
+                    <li className='nav__mainListLi'>Registry</li>
+                    <li className='nav__mainListLi'>Sell</li>
+                    <li className='nav__mainListLi'>Computers</li>
+                    <li className='nav__mainListLi'>Video Games</li>
+                    <li className='nav__mainListLi'>Find Gift</li>
+                    <li className='nav__mainListLi'>Home Improvement</li>
+                    <li className='nav__mainListLi'>Coupons</li>
+                    <li className='nav__mainListLi'>Automotive</li>
                 </ul>
-            </div> */}
+            </div>
         </div>
     )
 }
