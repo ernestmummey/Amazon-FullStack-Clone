@@ -6,10 +6,7 @@
 .header{
     height: 95px;
     background-color: #232f3e;
-    display: flex;
     position: static;
-    float: none;
-    align-content: center;
 }
 .header__belt{
     height: 65px;
@@ -60,20 +57,20 @@
 .header__searchSelect{
     padding: 6px;
     width: 50px;
-    height: 45px !important;
+    height: 45px;
     background-color: #f3f3f3;
     border: none;
     border-radius: 10% 0 0 10%;
 }
 .header__searchInput{
     height: 25px;
-    padding: 10px;
+    padding: 10px 0px;
     border: none;
-    width: 100%;
+    min-width: 93%;
 }
 .header__searchIcon{
     padding: 5px;
-    height: 35px !important;
+    height: 35px;
     width: 36px;
     background-position: 0 -277px;
     background-color: #febd69;
@@ -122,7 +119,7 @@
 }
 .header__optionShoppingCartSprite{
     background-position: -0 -340px;
-    width: 48px;
+    min-width: 48px;
     height: 27px;
 }
 .header__optionShoppingCartLineTwo{
@@ -134,13 +131,20 @@
     margin-top: 28px;
 }
 .nav__main{
-    height: 30;
-    width: 100%;
+    height: 30px;
+    min-width: 100%;
     display: flex;
-    /* justify-content: space-between; */
 }
-/* .nav__list{
+.nav__list{
+    min-width: 100%;
+    padding: 0;
     display: flex;
-    justify-content: space-evenly;
-    text-decoration: none;
-} */
+    list-style-type: none;
+}
+.nav__mainListLi{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 8px 12px ;
+}
