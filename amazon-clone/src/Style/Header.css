@@ -3,11 +3,13 @@
     background-repeat: no-repeat;
     background-size: 350px;
 }
+
 .header{
     height: 100px;
     background-color: #232f3e;
     position: static;
 }
+
 .header__belt{
     height: 65px;
     width: 100%;
@@ -22,14 +24,15 @@
     background-position: -10px -51px;
     margin: 1px 1px 1px 15px;
     padding: 1px 8px 0 6px;
-
 }
+
 .header__locationOption{
     display: flex;
     flex-flow: column nowrap;
     margin: 5px 2px 5px 0;
     padding: 0 9px 0 0;
 }
+
 .header__locationSprite{
     color: #d6d6d6;
     height: 20px;
@@ -38,22 +41,26 @@
     margin-right: -9px;
     background-position: -68px -375px;
 }
+
 .header__locationOptionOne{
     color: #CCCCCC;
     font-size: 12px;
 }
+
 .header__locationOptionTwo{
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header__search{
     display: flex;
     flex: 1;
     align-items: center;
     border-radius: 24px;
 }
+
 .header__searchSelect{
     padding: 6px;
     width: 50px;
@@ -62,12 +69,14 @@
     border: none;
     border-radius: 10% 0 0 10%;
 }
+
 .header__searchInput{
     height: 25px;
     padding: 10px 0px;
     border: none;
     min-width: 93%;
 }
+
 .header__searchIcon{
     padding: 5px;
     height: 35px;
@@ -76,26 +85,31 @@
     background-color: #febd69;
     border-radius: 0 10% 10% 0;
 }
+
 .header__nav{
     display: flex;
 }
+
 .header__option{
     display: flex;
     flex-flow: column nowrap;
     margin-left: 6px;
     padding: 0px 9px 10px 9px;
 }
+
 .header__optionLineOne{
     color: #FFFFFF;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header__optionLineTwo{
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .header__optionShoppingCart{
     display: flex;
     padding: 0px 9px 11px 9px;
@@ -103,11 +117,13 @@
     margin-right: 15px;
     margin-left: 6px;
 }
+
 .header__optionShoppingCartLineOne{
     display: flex;
     flex-flow: column nowrap;
     
 }
+
 .header__optionShoppingCartCount{
     color: #f08804;
     font-size: 16px;
@@ -117,11 +133,13 @@
     top: 13px;
     left: 27px
 }
+
 .header__optionShoppingCartSprite{
     background-position: -0 -340px;
     min-width: 48px;
     height: 27px;
 }
+
 .header__optionShoppingCartLineTwo{
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
@@ -130,20 +148,26 @@
     height: 15px;
     margin-top: 28px;
 }
+
+/* Start of the bottom of the header */
+
 .nav__main{
     height: 30px;
     display: flex;
 }
+
 .nav__mainLeft{
     display: flex;
     height: 20px;
     padding: 5px 9px;
 }
+
 .nav__mainHamburgerSprite{
     background-position: -170px -250px;
     min-width: 20px;
     height: 20px;
 }
+
 .nav__mainHamburgerSpriteText{
     padding-left: 2px;
     margin: 3px;
@@ -153,6 +177,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
 .nav__list{
     padding: 0;
     display: flex;
@@ -161,6 +186,7 @@
     white-space: nowrap;
     overflow: hidden;
 }
+
 .nav__mainListLi{
     font-size: 14px;
     color: #FFFFFF;
