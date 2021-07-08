@@ -53,6 +53,10 @@ const Header = (props) => {
                 </div>
             </div>
             <div className="nav__main">
+                <div className="nav__mainLeft">
+                    <span className='nav__mainHamburgerSprite'></span>
+                    <span className='nav__mainHamburgerSpriteText'>All</span>
+                </div>
                 <ul className='nav__list'>
                     <li className='nav__mainListLi'>Best Sellers</li>
                     <li className='nav__mainListLi'>Customer Service</li>
