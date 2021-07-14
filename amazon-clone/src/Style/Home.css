@@ -1,4 +1,14 @@
+.home__pageContent{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EAEDED;
+    min-width: 1000px;
+    overflow: hidden;
+}
+
 .home__backgroundImage{
+    margin: 0 auto;
     height: 600px;
     width: 1500px;
 }
