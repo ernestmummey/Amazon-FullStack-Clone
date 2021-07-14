@@ -6,6 +6,7 @@
 
 .header{
     height: 100px;
+    min-width: 1000px;
     background-color: #232f3e;
     position: static;
 }
@@ -181,7 +182,6 @@
 .nav__list{
     padding: 0;
     display: flex;
-    flex: 1;
     list-style-type: none;
     white-space: nowrap;
     overflow: hidden;
