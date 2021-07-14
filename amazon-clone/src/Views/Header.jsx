@@ -69,15 +69,19 @@ const Header = (props) => {
                     <li className='nav__mainListLi'>Kindle Books</li>
                     <li className='nav__mainListLi'>Gift Cards</li>
                     <li className='nav__mainListLi'>Amazon Home</li>
-                    <li className='nav__mainListLi'>Today's Deals</li>
                     <li className='nav__mainListLi'>Registry</li>
                     <li className='nav__mainListLi'>Sell</li>
                     <li className='nav__mainListLi'>Computers</li>
+                    <li className='nav__mainListLi'>Today's Deals</li>
                     <li className='nav__mainListLi'>Video Games</li>
-                    <li className='nav__mainListLi'>Find Gift</li>
                     <li className='nav__mainListLi'>Home Improvement</li>
+                    <li className='nav__mainListLi'>Find Gift</li>
                     <li className='nav__mainListLi'>Coupons</li>
                     <li className='nav__mainListLi'>Automotive</li>
+                    <li className='nav__mainListLi'>Beauty & Personal Care</li>
+                    <li className='nav__mainListLi'>Smart Home</li>
+                    <li className='nav__mainListLi'>Amazon Basics</li>
+                    <li className='nav__mainListLi'>Health & HouseHold</li>
                 </ul>
             </div>
         </div>
