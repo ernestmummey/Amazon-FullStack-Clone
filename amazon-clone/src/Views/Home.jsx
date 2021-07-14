@@ -3,8 +3,8 @@ import '../Style/Home.css'
 
 const Home=(props)=>{
     return(
-        <div>
-            <img className='home__backgroundImage' src='https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/TomorrowWar/TWAR_2021_GWBleedingHero_1500x600_GlowChrisSoloNoGun_TH_Post_1PV_en-US_ARSDE._CB666380843_.jpg'/>
+        <div className='home__pageContent'>
+            <img className='home__backgroundImage' src='https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/ZmVhMDM4ZmYt/ZmVhMDM4ZmYt-OWQ2NjJjNmMt-w3000._CB668936041_.jpg'/>
         </div>
     )
 }; 
