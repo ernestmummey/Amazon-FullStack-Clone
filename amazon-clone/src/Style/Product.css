@@ -1,0 +1,12 @@
+.product__container{
+    width: 1500px;
+    border: 1px dotted red;
+    min-height: 100vh;
+}
+
+.product__multiProduct{
+    border: 1px dotted black;
+    background-color: #fff;
+    height: 100%;
+    padding-top: 20px;
+}
