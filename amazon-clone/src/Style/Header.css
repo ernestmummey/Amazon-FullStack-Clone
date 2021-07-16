@@ -183,7 +183,7 @@
     padding: 0;
     display: flex;
     list-style-type: none;
-    white-space: nowrap;
+    flex-flow: row wrap;
     overflow: hidden;
 }
 
