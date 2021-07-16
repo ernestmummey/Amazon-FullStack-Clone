@@ -7,8 +7,19 @@
     overflow: hidden;
 }
 
+.home__container{
+
+}
+
 .home__backgroundImage{
     margin: 0 auto;
     height: 600px;
     width: 1500px;
+    z-index: -1;
+    margin-bottom: -300px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.home__productsContainer{
+    min-width: 1500px;
 }
