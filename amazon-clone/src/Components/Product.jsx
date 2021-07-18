@@ -7,6 +7,7 @@ const Product = (props) => {
             <div className="product__container">
                 <div className="product__multiProduct">
                     <p> {props.clothingtitle} </p>
+                    <p>Product div</p>
                 </div>
             </div>
         </div>
