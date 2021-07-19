@@ -1,0 +1,17 @@
+.overstock__container{
+    background-color: #fff;
+    height: 385px;
+    position: relative;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+
+.overstock__topImages{
+    display: flex;
+}
+
+.overstock__bottomImages{
+    display: flex;
+}
