@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Movie from  '../Components/Movie'
+import OverStock from '../Components/OverStock';
 import '../Style/Home.css'
 
 const Home=(props)=>{
@@ -11,7 +13,23 @@ const Home=(props)=>{
                     alt=''
                 />
                 <div className="home__productsContainer">
-                        
+                <Movie
+                    title=' "The Pursuit of Love" '
+                    image='https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/TV/TPOL_S1_DashboardCard_379x304_PRE_Final_noLocale_DOT0084._SY304_CB666234560_.jpg'
+                    aTag='Watch trailer on Prime Video'
+                />
+                < OverStock 
+                    title='Discounted overstock items'
+                    watchImage='https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_W_186x116_Evergreen_Jul_2021._SY116_CB665657905_.jpg'
+                    watchImageText='Watch'
+                    shoesImage='https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_SH_186x116_Evergreen_Jul_2021_v2._SY116_CB664188218_.jpg'
+                    shoesImageText='Shoes'
+                    pcImage='https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_PC_186x116_Evergreen_Jul_2021._SY116_CB665657905_.jpg'
+                    pcImageText='PC'
+                    lawnImage='https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_PLG_186x116_Evergreen_Jul_2021._SY116_CB665657905_.jpg'
+                    lawnImageText='Lawn & Garden'
+                    aLink='See more in Outlet'
+                />
                 </div>
             </div>
         </div>
