@@ -1,6 +1,6 @@
 # Amazon-Fullstack-Clone
 This Amazon clone will be partially interactive and will allow you to add items to the shopping cart and will allow you to checkout the items
-This program will use: React, Material UI, Firebase, and Stripe API
+This program will use: React, Redux, Material UI, Firebase(Authentication, database, hoisting), and Stripe API
 
 
 ## Under Construction
