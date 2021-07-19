@@ -21,5 +21,6 @@
 }
 
 .home__productsContainer{
-    min-width: 1500px;
+    display: flex;
+    justify-content: space-evenly;
 }
