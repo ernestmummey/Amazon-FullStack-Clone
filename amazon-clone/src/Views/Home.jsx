@@ -1,7 +1,8 @@
 import React from 'react';
 import Movie from  '../Components/Movie'
 import OverStock from '../Components/OverStock';
-import '../Style/Home.css'
+import '../Style/Home.css';
+import Grid from '@material-ui/core/Grid';
 
 const Home=(props)=>{
     return(
@@ -12,7 +13,7 @@ const Home=(props)=>{
                     src='https://images-na.ssl-images-amazon.com/images/G/01/kindle/journeys/ZmVhMDM4ZmYt/ZmVhMDM4ZmYt-OWQ2NjJjNmMt-w3000._CB668936041_.jpg' 
                     alt=''
                 />
-                <div className="home__productsContainer">
+                <Grid container className="home__productsContainer" spacing={10}>
                 <Movie
                     title=' "The Pursuit of Love" '
                     image='https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/TV/TPOL_S1_DashboardCard_379x304_PRE_Final_noLocale_DOT0084._SY304_CB666234560_.jpg'
@@ -30,7 +31,7 @@ const Home=(props)=>{
                     lawnImageText='Lawn & Garden'
                     aLink='See more in Outlet'
                 />
-                </div>
+                </Grid>
             </div>
         </div>
         
