@@ -21,6 +21,6 @@
 }
 
 .home__productsContainer{
-    display: flex;
-    justify-content: space-evenly;
+    flex: 1;
+    justify-content: center;
 }
