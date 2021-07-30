@@ -14,8 +14,8 @@ const Home=(props)=>{
                     alt=''
                 />
                 <div className="home__productsContainer">
-                    <Grid container spacing={2} justifyContent="center">
-                        <Grid item xs={3} justifyContent="center">
+                    <Grid container spacing={2} >
+                        <Grid item xs={3} >
                             <Movie
                                 title=' "The Pursuit of Love" '
                                 image='https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/TV/TPOL_S1_DashboardCard_379x304_PRE_Final_noLocale_DOT0084._SY304_CB666234560_.jpg'
